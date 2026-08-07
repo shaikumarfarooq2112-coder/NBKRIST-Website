@@ -1,0 +1,110 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+
+body{
+    background:#ffffff;
+}
+
+/* Header */
+
+header{
+    background:#0A4D8C;
+    color:white;
+    text-align:center;
+    padding:35px 0;
+}
+
+/* Title */
+
+header h1{
+    font-size:52px;
+    margin-bottom:25px;
+}
+
+/* Navigation */
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:0 18px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+    padding:8px 12px;
+}
+
+nav ul li a:hover{
+    background:#083A6B;
+    border-radius:5px;
+}
+
+/* Welcome Section */
+
+.hero{
+    height:220px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:white;
+}
+
+.hero h2{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:24px;
+}
+
+/* News */
+
+.news{
+    background:#f3f3f3;
+    padding:30px;
+    min-height:350px;
+}
+
+.news h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+button{
+    background:green;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#006400;
+}
+
+#newsList{
+    margin-top:20px;
+    margin-left:35px;
+}
+
+#newsList li{
+    font-size:22px;
+    margin:8px 0;
+}
